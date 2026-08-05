@@ -1,1 +1,1 @@
-This is my Practive repo
+This is my Practice repo
