@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  border: solid;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+}
+
+article {
+  border: solid;
+  overflow: scroll;
+  scrollbar-width: none;
+  text-align: center;
+  padding: 10px;
+}
+
+video {
+  width: 90%;
+  height: 200px;
+  border-radius: 20px;
+}
