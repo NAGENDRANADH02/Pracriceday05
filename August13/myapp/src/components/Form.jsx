@@ -3,11 +3,13 @@ import { useRef } from 'react'
 const Form = ({updatedetailes}) => {
     let name = useRef()
     let email = useRef()
+    let address=useRef()
     let handleSubmit = (e) => {
         e.preventDefault()
         let detailes={
             name:name.current.value,
             email:email.current.value
+            address:current.value
         }
         console.log(detailes)
         updatedetailes(detailes)
@@ -20,6 +22,7 @@ const Form = ({updatedetailes}) => {
                 <input type="text" ref={name} /><br />
                 <label htmlFor="">Email</label>
                 <input type="text"  ref={email}/><br />
+                <label htmlFor="">Address</label>
                 <button >Submit</button>
             </form>
         </div>
