@@ -1,0 +1,9 @@
+*{
+    margin: 100%;
+    padding: 100px;
+    box-sizing: content-box;
+}
+nav{
+    border: 100%;
+    color:aqua
+}
